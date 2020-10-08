@@ -1,0 +1,46 @@
+// Picked Lapharp
+// Simple sample of a lapharp (dulcimer type instrument). Each wire string was sampled having been plucked with a pick.
+//
+// Contributed by: Ken Theriot 
+//
+// Converted from the original GigaSampler version by S. Christian Collins
+// www.schristiancollins.com
+
+<control>
+default_path=samples/
+label_cc7=Volume
+label_cc10=Pan
+label_cc72=Note Release
+set_cc72=30
+
+
+<global> amp_veltrack=98.5
+
+
+<group> ampeg_release=1  ampeg_release_oncc72=5.7  lovel=1  hivel=109
+cutoff=400  fil_type=lpf_1p  fil_keytrack=30  fil_veltrack=8000
+
+<region> sample=lapharppick_C4.wav  pitch_keycenter=60  lokey=21   hikey=60   tune=-15  volume=-1
+<region> sample=lapharppick_D4.wav  pitch_keycenter=62  lokey=61   hikey=62   tune=-12  volume=3
+<region> sample=lapharppick_E4.wav  pitch_keycenter=64  lokey=63   hikey=64   tune=-5   volume=-1
+<region> sample=lapharppick_F4.wav  pitch_keycenter=65  lokey=65   hikey=66   tune=-10
+<region> sample=lapharppick_G4.wav  pitch_keycenter=67  lokey=67   hikey=68   tune=-18  volume=2
+<region> sample=lapharppick_A4.wav  pitch_keycenter=69  lokey=69   hikey=70   tune=-13  volume=-1
+<region> sample=lapharppick_B4.wav  pitch_keycenter=71  lokey=71   hikey=71   tune=-8   volume=-2
+<region> sample=lapharppick_C5.wav  pitch_keycenter=72  lokey=72   hikey=73   tune=-10  volume=-2
+<region> sample=lapharppick_D5.wav  pitch_keycenter=74  lokey=74   hikey=75   tune=-12  volume=-3
+<region> sample=lapharppick_E5.wav  pitch_keycenter=76  lokey=76   hikey=96   tune=-7   volume=-3
+
+
+<group> ampeg_release=1  ampeg_release_oncc72=5.7  lovel=110  hivel=127
+
+<region> sample=lapharppick_C4.wav  pitch_keycenter=60  lokey=21   hikey=60   tune=-15  volume=-1
+<region> sample=lapharppick_D4.wav  pitch_keycenter=62  lokey=61   hikey=62   tune=-12  volume=3
+<region> sample=lapharppick_E4.wav  pitch_keycenter=64  lokey=63   hikey=64   tune=-5   volume=-1
+<region> sample=lapharppick_F4.wav  pitch_keycenter=65  lokey=65   hikey=66   tune=-10
+<region> sample=lapharppick_G4.wav  pitch_keycenter=67  lokey=67   hikey=68   tune=-18  volume=2
+<region> sample=lapharppick_A4.wav  pitch_keycenter=69  lokey=69   hikey=70   tune=-13  volume=-1
+<region> sample=lapharppick_B4.wav  pitch_keycenter=71  lokey=71   hikey=71   tune=-8   volume=-2
+<region> sample=lapharppick_C5.wav  pitch_keycenter=72  lokey=72   hikey=73   tune=-10  volume=-2
+<region> sample=lapharppick_D5.wav  pitch_keycenter=74  lokey=74   hikey=75   tune=-12  volume=-3
+<region> sample=lapharppick_E5.wav  pitch_keycenter=76  lokey=76   hikey=96   tune=-7   volume=-3
